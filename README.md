@@ -1,4 +1,4 @@
-# [ChatApp](https://example.com)
+# [ChatApp](https://yassinbesbes.github.io/ChatApp/)
 
 **Project Title:** HTML-CSS Chat Message Interface
 
@@ -50,3 +50,4 @@ This project provides a simple HTML and CSS implementation of a chat message int
 
     Open the `index.html` file in your preferred web browser to view the chat message interface.
 
+This project is based on the "Make Your Own App" course available on [edX](https://www.edx.org/learn/app-development/technische-universitat-munchen-make-your-own-app). It incorporates the foundational knowledge and skills learned from the course to create a practical web application.
