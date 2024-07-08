@@ -1,4 +1,5 @@
-let selectedChannel; 
+
+let selectedChannel = channel1;
 
 function switchChannel(channel) {
     console.log("Selected channel:", channel.name);
@@ -41,3 +42,34 @@ function sendMessage(){
     document.getElementById('message-input').value = "";
 
 }
+
+
+function init() {
+    console.log("App is initialized");
+    getChannels();
+    getMessages();
+    loadMessagesIntoChannel();
+    displayChannels();
+    loadEmojis();
+    document.getElementById("send-button").addEventListener("click", sendMessage);
+    document
+      .getElementById("emoticon-button")
+      .addEventListener("click", toggleEmojiArea);
+    document
+      .getElementById("close-emoticon-button")
+      .addEventListener("click", toggleEmojiArea);
+  }
+
+
+import mockChannels from './js/channels.js';
+import mockMessages from './js/mess.js';
+
+
+function getChannels() {
+    return mockChannels;
+}
+function getMessages() {
+    return mockMessages;
+}
+
+

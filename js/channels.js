@@ -21,3 +21,39 @@ const channel4 = {
     name: 'DevConference',
     favorite: true
 };
+
+const mockChannels = [
+    {
+        id: "channel1",
+        name: "MeetUp",
+        favorite: true,
+        messages: [],
+        latestMessage: "17:24"
+    },
+        
+    {
+        id: "channel2",
+        name: "MeetUp",
+        favorite: true,
+        messages: [],
+        latestMessage: "17:24"
+    },
+
+    {
+        id: "channel3",
+        name: "MeetUp",
+        favorite: true,
+        messages: [],
+        latestMessage: "17:24"
+    },
+
+    {
+        id: "channel4",
+        name: "MeetUp",
+        favorite: true,
+        messages: [],
+        latestMessage: "17:24"
+    },
+
+
+]

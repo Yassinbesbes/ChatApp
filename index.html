@@ -9,8 +9,7 @@
 
     <link rel="stylesheet" type="text/css" href="style.css">
 
-    <script type="text/javascript" src="js/main.js"></script>
-    <script type="text/javascript" src="js/channels.js"></script>
+
 
 
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
@@ -18,7 +17,7 @@
 
 </head>
 
-<body>
+<body onload="init()">
     <section id="channel-area">
         <div class="headbar">
             <img src="https://ip.lfe.mw.tum.de/sections/moocus.png" alt="logo" id="logo">
@@ -147,5 +146,12 @@
             <a class="material-icons button" id="send-button" onclick="sendMessage()">send</a>
         </div>        
     </section>
+
+
+
+    <script type="text/javascript" src="messages.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/channels.js"></script>
+
 </body>
 </html>
