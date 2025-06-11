@@ -2,6 +2,8 @@
 
 **Project Title:** HTML-CSS Chat Message Interface
 
+![image](https://github.com/user-attachments/assets/bff92afc-71d3-4b5b-85f7-693245f6bb1c)
+
 **Description:**
 This project provides a simple HTML and CSS implementation of a chat message interface. It's designed to offer a clean and minimalist layout for displaying chat messages in web applications.
 
@@ -50,4 +52,4 @@ This project provides a simple HTML and CSS implementation of a chat message int
 
     Open the `index.html` file in your preferred web browser to view the chat message interface.
 
-This project is based on the "Make Your Own App" course available on [edX](https://www.edx.org/learn/app-development/technische-universitat-munchen-make-your-own-app). It incorporates the foundational knowledge and skills learned from the course to create a practical web application.
+⚠️ **Note:** This project is based on the "Make Your Own App" course available on [edX](https://www.edx.org/learn/app-development/technische-universitat-munchen-make-your-own-app). It incorporates the foundational knowledge and skills learned from the course to create a practical web application.
